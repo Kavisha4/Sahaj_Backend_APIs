@@ -1,7 +1,14 @@
 <p align="center">
 <img src="http://nano.sahaj.ai/27ad2091b1714f583886.png" width="320" height="162" alt="Logo" title="NaN(O) logo">
 </p>
-Link to repo: https://github.com/sahaj-nano/nano-digital-marketplace-kavisha4-node
+
+Link to original repo: https://github.com/sahaj-nano/nano-digital-marketplace-kavisha4-node
+Leaderboard
+![image](https://github.com/Kavisha4/Sahaj_Hackathon_APIs/assets/76434647/e0d7dd63-eb08-4587-acb5-4c592379c895)
+
+Workflow completion
+![image](https://github.com/Kavisha4/Sahaj_Hackathon_APIs/assets/76434647/8a1bfb4f-cedf-4fc1-84dd-f38269c7b8d9)
+
 # Digital Marketplace - a NaN(O) problem
 
 ## What is NaN(O)
