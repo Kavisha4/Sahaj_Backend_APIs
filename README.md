@@ -1,8 +1,8 @@
 <p align="center">
 <img src="http://nano.sahaj.ai/27ad2091b1714f583886.png" width="320" height="162" alt="Logo" title="NaN(O) logo">
 </p>
-
-# Digital Marketplace - a NaN(O) problemmm
+Link to repo: https://github.com/sahaj-nano/nano-digital-marketplace-kavisha4-node
+# Digital Marketplace - a NaN(O) problem
 
 ## What is NaN(O)
 
