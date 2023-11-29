@@ -11,12 +11,6 @@ Workflow completion
 
 # Digital Marketplace - a NaN(O) problem
 
-## What is NaN(O)
-
-At Sahaj, tech consultants operate at the intersection between engineering and art. Simply put, they are artisans who take on complex engineering problems in the software industry across a wide spectrum of domains. Their work is deeply rooted in first principles thinking - asking fundamental questions to dissect and understand a problem which eventually leads to one-of-a-kind solutions, each as distinct as a fingerprint.
-
-Through NaN(O), a hackathon driven by Sahaj across multiple colleges in India, they want to instill a culture of applying first principles thinking to a problem statement.
-
 ------
 
 ## Problem statement
@@ -39,15 +33,14 @@ Backend functionality is written such that requests will be accepted over HTTP a
 ------
 
 ### Technical details
-1. Your repository needs to have a `Dockerfile` that starts your HTTP web app (This is already given!)
-2. Your HTTP app need to expose APIs ([API contract](#api-contract)) on port 8080 (Also all done, unless you mess around and break things)
+1. Repository needs to have a `Dockerfile` that starts your HTTP web app 
+2.  HTTP app need to expose APIs ([API contract](#api-contract)) on port 8080 (Also all done, unless you mess around and break things)
 3. No existing databases, libraries and services can be used to store the data
 4. Application needs to persist data across restarts
 5. No limitation on the programming language
-6. Do not touch the GitHub actions code. It is used to test your code automatically and score it. Any modifications will lead to immediate disqualification.
+6. Do not touch the GitHub actions code. It is used to test code automatically and score it. Any modifications will lead to immediate disqualification.
 7. Maximum time a single request can take is 5 seconds
 8. Data should be persisted in `./digital-marketplace`
-9. Do not touch the GreetingController. Let it be.
 
 ------ 
 
