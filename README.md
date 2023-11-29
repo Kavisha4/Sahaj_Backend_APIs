@@ -13,9 +13,9 @@ Workflow completion
 
 ------
 
-## Problem statement
+## Problem trying to be addressed
 
-You are writing an application for the digital marketplace for women entrepreneurs where they can list their businesses to get a wider audience. You have been assigned to work on the backend side of the platform. Given the short time to market, the client has already hired a team who are experts in building HTTP applications. They have built the HTTP layer for you, but they are struggling to implement the functionalities of the application. That’s where you come into the picture. You need to implement the below 4 functionalities.
+Writing an application for the digital marketplace for women entrepreneurs where they can list their businesses to get a wider audience. Work on the backend side of the platform. Given the short time to market-Need to implement the below 4 functionalities.
 
 1. Create a Business Listing
 2. Search for a specific Business Listing based on ID
@@ -26,21 +26,18 @@ You are writing an application for the digital marketplace for women entrepreneu
    2. `MIN`
    3. `MAX`
 
-Backend functionality is written such that requests will be accepted over HTTP and call methods define on store.js file. Your goal is to implement these methods as mentioned in the following expectations (Method contract). No databases/libraries can be used to store/maintain data.
+Backend functionality is to be written such that requests will be accepted over HTTP and call methods define on store.js file. Goal was to implement these methods as mentioned in the following expectations (Method contract). No databases/libraries can be used to store/maintain data.
 
-(Fastest applications win)[https://knowyourmeme.com/memes/i-am-speed].
 
 ------
 
 ### Technical details
 1. Repository needs to have a `Dockerfile` that starts your HTTP web app 
-2.  HTTP app need to expose APIs ([API contract](#api-contract)) on port 8080 (Also all done, unless you mess around and break things)
+2.  HTTP app need to expose APIs ([API contract](#api-contract)) on port 8080 
 3. No existing databases, libraries and services can be used to store the data
 4. Application needs to persist data across restarts
-5. No limitation on the programming language
-6. Do not touch the GitHub actions code. It is used to test code automatically and score it. Any modifications will lead to immediate disqualification.
-7. Maximum time a single request can take is 5 seconds
-8. Data should be persisted in `./digital-marketplace`
+5. Maximum time a single request can take is 5 seconds
+6. Data should be persisted in `./digital-marketplace`
 
 ------ 
 
@@ -50,11 +47,6 @@ Backend functionality is written such that requests will be accepted over HTTP a
 3. Throughput of the application - 460
 4. Implementation of aggregation functionality - 240
 -------
-#### FAQ
-1. Do not run a development webserver with watch enabled in your app. Your tests will fail.
-2. If your greeting end point test is not passing, please check the output you produce. It needs to be exactly what is requested.
-3. When in doubt, please check the Github Actions logs for details
-4. Logs for the performance tests will not be shared
 
 ## Data to be stored
 ```
@@ -235,14 +227,9 @@ Returns collection of aggregated object for given aggregate criteria.
     ```
   * Empty collection if nothing matches
 ----
-[API Sample Request Response](api-sample.md)(This is already implemented and should work as expected with above specified method contract)
+[API Sample Request Response](api-sample.md)
 ---
-## Competition rules
-
-Check <a href="http://nano.sahaj.ai/rules.html" target="_blank">rules and scoring</a> pages for details. When in doubt, ask the organizers and we will add clarifications to the page.
-
-
-## Sample Instructions for coding/committing
+## Instructions for coding/committing
 * git clone `git repository url` (Skip this step if using github codespaces)
 * cd `repository name` (Skip this step if using github codespaces)
 * Check for health check [server.js](server.js)
@@ -251,7 +238,7 @@ Check <a href="http://nano.sahaj.ai/rules.html" target="_blank">rules and scorin
 * To test your code locally run following command
   * npm install
   * npm test
-* Code needs to be tested via github? Execute following commands in the terminal location of your repository
+* Code needs to be tested via github Execute following commands in the terminal location of your repository
   * git add .
   * git commit -m 'any message regarding your changes'
   * git push
@@ -260,7 +247,7 @@ Check <a href="http://nano.sahaj.ai/rules.html" target="_blank">rules and scorin
 
 ## Sample Instructions for Codespaces installation
 * On your browser after accepting the github invitation,
-  * Celect "Code" dropdown
+  * Select "Code" dropdown
   * Select the "Codespaces" tab.
   * Select "Create codespace on main"
 * Continue from step 3 of Sample Instructions for coding/commit
